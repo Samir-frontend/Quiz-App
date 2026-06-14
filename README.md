@@ -34,7 +34,7 @@ It provides a simple and engaging quiz experience with instant results.
 🔗 Live Demo
 
 
-👉 Add your live demo link here
+👉  https://samir-frontend.github.io/Quiz-App/
 
 
 
