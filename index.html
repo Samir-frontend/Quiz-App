@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz App</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="quiz-box">
+
+    <!-- Start Screen -->
+    <div id="startScreen">
+      <h1>🧠 Quiz App</h1>
+      <p>Test your web development knowledge!</p>
+      <ul>
+        <li>📌 Total Questions: 3</li>
+        <li>⏱ No Time Limit</li>
+        <li>✅ Select answer then click Next</li>
+      </ul>
+      <button id="startBtn" onclick="startQuiz()">Start Quiz 🚀</button>
+    </div>
+
+    <!-- Quiz Screen -->
+    <div id="quizScreen" style="display:none;">
+      <h1>🧠 Quiz App</h1>
+      <div class="progress">
+        <div class="progress-bar" id="progressBar"></div>
+      </div>
+      <p class="question-count" id="questionCount"></p>
+      <h2 id="question"></h2>
+      <div id="options"></div>
+      <p id="error"></p>
+      <button onclick="nextQuestion()">Next →</button>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
